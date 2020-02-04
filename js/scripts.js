@@ -6,27 +6,29 @@ $(document).ready(function () {
     var currentTime = moment().hours();
     var newName = $(inputText).val();
 
+    setInterval(function() {
+        $(".current-date").text(moment().format("LLLL"))
+    }, 1000);
+    
+    backgroundUpdate();
 
     function backgroundUpdate() {
-        $(".time-row").each(function () {
+        $(".row").each(function () {
             var timeBlock = parseInt($(this).data('time'));
     
             if (timeBlock < currentTime) {
-                $(this).find('.text-area').removeClass('present future').addClass('past');
+                $(this).find('.input-area').attr("style", "background-color: gray");
     
             } else if (timeBlock === currentTime) {
-                $(this).find('.text-area').removeClass('past future').addClass('present');
+                $(this).find('.input-area').attr("style", "background-color: red");
     
             } else if (timeBlock > currentTime) {
-                $(this).find('.text-area').removeClass('past present').addClass('future');
+                $(this).find('.input-area').attr("style", "background-color: green");
             }
         });
     };
 
-    $(".save-button").click(function() {
-        localStorage.getItem(newName);   
-    })
-    
+    setInterval(backgroundUpdate, 2000);
     // for(var i = newDate; i <24; i++) {
     //         if(i < currentTime) {
     //             $(".time-block").attr("style", "background-color: gray")
@@ -40,7 +42,7 @@ $(document).ready(function () {
          // } else {
              // set background to red
 
-         }
+         
     
     
     

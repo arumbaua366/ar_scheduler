@@ -10,13 +10,11 @@ body {
     width: 100%;
 }
 
-.save {
-    text-align: center;
-}
-
 .save-button {
     background-color: rgb(0, 187, 194);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     color: white;
 }
+
+
