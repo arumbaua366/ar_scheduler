@@ -19,29 +19,16 @@
         <div class="container">
           <h1 class="display-4">Work Day Scheduler</h1>
           <p class="lead">A simple scheduler for your work day.</p>
-          <p class="date" id="current-day"></p>
+          <p class="date" id="current-day"><input type="date" id="date"></p>
         </div>
       </div>
       <div class="container">
-        <div class="row">
-          <div class="time-block col-1 p-3 d-flex border-top border-bottom">
-          <span class="time-head">12AM</span> 
-          </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
-          </div>
-          <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
-            <span class="fa fa-save"></span>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
+        <div class="row" data-time="1">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">1AM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -49,12 +36,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="2">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">2AM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -62,12 +49,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="3">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">3AM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -75,12 +62,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="4">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">4AM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -88,12 +75,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="5">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">5AM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -101,12 +88,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="6">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">6AM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -114,12 +101,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="7">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">7AM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -127,12 +114,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="8">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">8AM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -140,12 +127,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="9">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">9AM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -153,12 +140,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="10">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
           <span class="time-head">10AM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -166,12 +153,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="11">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">11AM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -179,12 +166,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="12">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">12PM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -192,12 +179,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="13">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">1PM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -205,12 +192,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="14">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">2PM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -218,12 +205,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="15">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">3PM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -231,12 +218,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="16">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">4PM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -244,12 +231,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="17">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">5PM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -257,12 +244,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="18">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">6PM</span>   
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -270,12 +257,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="19">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">7PM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -283,12 +270,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="20">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">8PM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -296,12 +283,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="21">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">9PM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -309,12 +296,12 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="22">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">10PM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
@@ -322,25 +309,37 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" data-time="23">
           <div class="time-block col-1 p-3 d-flex border-top border-bottom">
             <span class="time-head">11PM</span> 
           </div>
-          <div class="col-10 m-0 p-0">
-            <textarea class="input-area w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
           </div>
           <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
             <span class="fa fa-save"></span>
           </div>
         </div>
       </div>
-      
+      <div class="container">
+        <div class="row" data-time="24">
+          <div class="time-block col-1 p-3 d-flex border-top border-bottom">
+          <span class="time-head">12AM</span> 
+          </div>
+          <div class="text-div col-10 m-0 p-0">
+            <textarea class="save-text w-100 h-100 d-inline-block" cols="30" rows="3"></textarea>
+          </div>
+          <div class="save-button col-1 m-0 p-0 d-flex justify-content-center align-items-center">
+            <span class="fa fa-save"></span>
+          </div>
+        </div>
+      </div>
     <!-- Optional JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
  <!-- JS -->
  <script src="js/scripts.js"></script>
   </body>
